@@ -13,7 +13,8 @@ return {
 				tmpl = { "htmlbeautifier", "prettierd" },
 				javascript = { "prettierd", "prettier", "biome" },
 				typescript = { "prettierd", "prettier", "biome" },
-				go = { "gofmt", "gofumpt", "goimports", "goimports-reviser", "golines" },
+				-- go = { "gofmt", "gofumpt", "goimports", "goimports-reviser", "golines" },
+				go = { "gofmt" },
 				ocaml = { "ocamlformat" }, -- Ajout du formateur pour OCaml
 			},
 
